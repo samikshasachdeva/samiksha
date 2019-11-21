@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Page 2: AXIS Bank Responsive Website: Form Page and Log out Popup</title>
+
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/simple-sidebar.css" rel="stylesheet">
+<link href="css/Style4.css" rel="stylesheet" type="text/css">
+<!--<link href="style.css" rel="stylesheet" type="text/css">-->
+
+<!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+<!-- JQuery Files -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	</head>
+
+<body>
+<!--Nav Bar  -->
+<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+  <div class="container"> 
+    <!-- Hamburger menu button for smaller screens -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars" aria-hidden="true"></i> </button>
+    <a class="navbar-brand" href="#"><img src="IMAGES/AXISBANKLOGO.png" width="150" height="45" alt=""/></a>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"> <a class="nav-link" href="#">Accounts</a> </li>
+        <li class="nav-item active"> <a class="nav-link" href="#">Payments<span class="sr-only">(current)</span> </a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Investments</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Forex</a> </li>
+        <li class="nav-item"> <i class="fa fa-search icon-color" aria-hidden="true"></i> </li>
+      </ul>
+    </div>
+    <br>
+    <!-- Click on 'Log Out' button for Log out pop up. -->
+    <button type="button" class="btn btn-primary btn-main" data-toggle="modal" data-target="#exampleModal"> LOG OUT</button>
+  </div>
+</nav>
+<br>
+<br>
+<br>
+<div class="d-flex" id="wrapper"> 
+  
+  <!-- Sidebar: This is made visible in larger screens and is hidden in smaller screens. Toggle button with arrow on left side is used for opening and closing the sidebar in smaller screebs. -->
+  <div class="bg-light border-right" id="sidebar-wrapper">
+    <div class="sidebar-heading"> Customer ID <br>
+      <b>12345678</b></div>
+    <div class="list-group list-group-flush">
+      <div id="accordion" class="sidebar-nav"> 
+        <!-- Accorion inside the sidebar -->
+        <h3 class="side-heading nav-item dropdown">Accounts<i class="fa fa-chevron-down" aria-hidden="true"></i> </h3>
+        <div> 
+          <!-- Elements within the Accounts accordion element -->
+          <h6 class="dropdown-header">Type of Account:</h6>
+          <h6 class="dropdown-header"><b>Savings Account</b></h6>
+          <h6 class="dropdown-header">Account Balance:</h6>
+          <h6 class="dropdown-header"><b>Rs. 123456789</b></h6>
+        </div>
+        <hr class="sidebar-line">
+        <h3 class="side-heading nav-item dropdown">Credit Cards<i class="fa fa-chevron-down" aria-hidden="true"></i> </h3>
+        <div></div>
+        <hr class="sidebar-line">
+        <h3 class="side-heading nav-item dropdown">Credit Cards<i class="fa fa-chevron-down" aria-hidden="true"></i> </h3>
+        <div></div>
+        <hr class="sidebar-line">
+        <h3 class="side-heading nav-item dropdown">Loans<i class="fa fa-chevron-down" aria-hidden="true"></i> </h3>
+        <div></div>
+        <hr class="sidebar-line">
+        <h3 class="side-heading nav-item dropdown">Loans<i class="fa fa-chevron-down" aria-hidden="true"></i> </h3>
+        <div></div>
+        <hr class="sidebar-line">
+        <h3 class="side-heading nav-item dropdown">Deposits<i class="fa fa-chevron-down" aria-hidden="true"></i> </h3>
+        <div></div>
+        <hr class="sidebar-line">
+        <h3 class="side-heading nav-item dropdown">Deposits<i class="fa fa-chevron-down" aria-hidden="true"></i> </h3>
+        <div></div>
+        <hr class="sidebar-line">
+        <h3 class="side-heading nav-item dropdown">E-Statements<i class="fa fa-chevron-down" aria-hidden="true"></i> </h3>
+        <div></div>
+        <hr class="sidebar-line">
+        <h3 class="side-heading nav-item dropdown">E-Statements<i class="fa fa-chevron-down" aria-hidden="true"></i> </h3>
+        <div></div>
+        <hr class="sidebar-line">
+      </div>
+    </div>
+  </div>
+  
+  <!-- /#sidebar-wrapper --> 
+  
+  <!-- Page Content -->
+  <div id="page-content-wrapper">
+    <button class="btn light slide-right" id="menu-toggle"><i class="fa fa-angle-right icon1" aria-hidden="true"></i><i class="fa fa-angle-left icon2" aria-hidden="true"></i></button>
+    <div class="container"> 
+      <!-- Second nav bar visible after logging in. It is a tab nav in larger screens and gets converted to an accordion in smaller screens. -->
+      <ul id="tabs" class="nav nav-fill main-nav" role="tablist">
+        <li class="nav-item"> <a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab"><b>FUND TRANSFER</b></a> </li>
+        <li class="nav-item"> <a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab"><b>BILL PAYMENTS</b></a> </li>
+        <li class="nav-item"> <a id="tab-C" href="#pane-C" class="nav-link" data-toggle="tab" role="tab"><b>TRANSACTION STATUS ENQUIRY</b></a> </li>
+        <li class="nav-item"> <a id="tab-D" href="#pane-D" class="nav-link" data-toggle="tab" role="tab"><b>RECHARGES</b></a> </li>
+        <hr class="redline">
+      </ul>
+      <div id="content" class="tab-content" role="tablist">
+        <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
+          <div class="card-header" role="tab" id="heading-A">
+            <h5 class="mb-0"> 
+              <!-- Active Tab nav and Accordion heading --> 
+              <a data-toggle="collapse" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A" class="title-hover"> FUND TRANSFER <i class="fa fa-angle-up zero" aria-hidden="true"></i> </a> </h5>
+          </div>
+          
+          <!-- Active Tab Nav and Accordion Content: Consists of the form elements-->
+          <div id="collapse-A" class="collapse show" data-parent="#content" role="tabpanel" aria-labelledby="heading-A">
+            <div class="card-body"> 
+              <!-- Screen 1 of the form -->
+              <div id="view1">
+                <div class="grey-box">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-md-4 white-box col-lg-6">
+                        <div class="card-header"><b>RECENT TRANSFERS </b> </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item"><b>RECENT TRANSFERS </b> </li>
+                          <li class="list-group-item">No Recent Transactions found</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-4 white-box col-lg-6">
+                        <div class="card-header"><b>NEW TRANSFERS</b> </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item"><b>NEW TRANSFERS</b> </li>
+                          <li class="list-group-item">My Accounts</li>
+                          <li class="list-group-item">Axis Bank Accounts</li>
+                          <!-- Click 1: 'Other bank Accounts' to open the first page of the form -->
+                          <li class="list-group-item"><a href="#" class="usebutton1">Other Bank Accounts</a></li>
+                          <li class="list-group-item">Visa Credit Cards</li>
+                          <li class="list-group-item">Instant Money Transfer</li>
+                          <br>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Screen 2 of the form -->
+              <div id="view2">
+                <div class="card text-center col-lg-12 white-box col-md-12"><br>
+                  <br>
+                  <div id="progressbar"></div>
+                  <div class="card-body">
+                    <h5 class="card-title"> NEW TRANSFER</h5>
+                    <h7> Other Bank Accounts </h7>
+                    <div id="progressbar"></div>
+                    <div id="tabs">
+                      <div class="container-fluid form-box"> 
+                        <!-- Tab Navs: Select or Add Benficiary -->
+                        <h6>Select or Add Beneficiary</h6>
+                        <br>
+                        <ul id="clothingnav1 form-box" class="nav nav-fill nav-pills" role="tablist">
+                          <li class="nav-item inform-tab" > <a class="nav-link active menu-bar" href="#home1" id="tabs-1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Select</a> </li>
+                          <!-- Click 2: 'Add' to view the tab content -->
+                          <li class="nav-item inform-tab"> <a class="nav-link menu-bar"  href="#paneTwo1" role="tab" id="tabs-2" data-toggle="tab" aria-controls="hats">Add</a> </li>
+                        </ul>
+                        
+                        <!-- Tab Nav contents -->
+                        <div id="clothingnavcontent1" class="tab-content">
+                          <div role="tabpanel" class="tab-pane fade show active active-tab" id="tabs-1" class="inform-tab" aria-labelledby="hometab1">
+                          <!-- Content within the Active Tab: Select Beneficiary -->
+                          <fieldset class="select-content">
+                            <h6 class="select-content col-lg-4"> Recently Added</h6>
+                            <input type="radio" name="radio-1" id="radio-1">
+                            <label for="radio-1" id="disabled0"><b>Kunal Gandhi</b><br>
+                              HDFC Bank: 00001234</label>
+                            <br>
+                            <hr>
+                            <input type="radio" name="radio-1" id="radio-2">
+                            <label for="radio-2" id="disabled0"><b>Anil Mehra</b><br>
+                              ICICI Bank: 00005678</label>
+                            <br>
+                            <input type="radio" name="radio-1" id="radio-3">
+                            <label for="radio-3" id="disabled0"><b>Manan Shah</b><br>
+                              HSBC Bank: 00008989</label>
+                            <br>
+                            <input type="radio" name="radio-1" id="radio-4">
+                            <label for="radio-3" id="disabled0"><b>Lalit Agarwal</b><br>
+                              ICICI Bank: 10102020</label>
+                          </fieldset>
+                          <button id="effect0" class="btn btn-primary btn-main usebutton3 btn-form disabled" >Proceed<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="tabs-2">
+                          <form class="view3">
+                          <!-- Content within the inactive Tab: Add Beneficiary -->
+                          <div class="form-sheet1">
+                          <!-- Form details-->
+                          <div class="col-lg-7 col-xl-6"> <br>
+                            <label for="exampleInputEmail1">* Beneficiary Name</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1 part1" placeholder="Enter here">
+                          </div>
+                          <br>
+                          <div class="row-sheet1">
+                            <div class="col-lg-7 sheet-form col-xl-6">
+                              <label for="exampleInputEmail1b">* Beneficiary Account Number</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1b part2" placeholder="Enter here">
+                            </div>
+                          </div>
+                          <br>
+                          <div class="row-sheet1">
+                          <div class="col-lg-7 sheet-form">
+                          <div class="demo dropdown show">
+                          <form action="#">
+                            <fieldset class="col-xl-11">
+                              <label for="speed">* Bank Name</label>
+                              <br>
+                              <!-- Select menu to choose the bank name-->
+                              <select name="speed" id="speed part3" class="btn btn-sm dropdown-toggle">
+                                <option selected="selected" class="selected">Select Bank Name</option>
+                                <option>HDFC Bank</option>
+                                <option>ICICI Bank</option>
+                                <option>HSBC bank</option>
+                                <option>Others</option>
+                              </select>
+                            </fieldset>
+                          </form>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="col-lg-7">
+                        <div class="demo dropdown show">
+                          <form action="#">
+                            <fieldset class="col-xl-11">
+                              <label for="speed">* Bank Branch</label>
+                              <br>
+                              <!-- Select menu to choose the bank branch-->
+                              <select name="speed" id="speed part4" class="btn btn-sm dropdown-toggle">
+                                <option selected="selected">Select Bank Branch</option>
+                                <option>Churchgate</option>
+                                <option>Lokhandwala</option>
+                                <option>Juhu</option>
+                              </select>
+                            </fieldset>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="row-sheet1">
+                      <div class="col-lg-7 col-xl-6">
+                        <label for="exampleInputEmail1c" id="disabled1">* IFSC Code</label>
+                        <br>
+                        <input type="email" id="exampleInputEmail1c part5 " class="form-control"  placeholder="Enter here">
+                      </div>
+                      <br>
+                      <!-- Click 3: 'Proceed' to view the confirmation page-->
+                      <button id="effect" class="btn btn-primary btn-main btn-form disabled usebutton2" >Proceed<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                    </div>
+                    <br>
+                  </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div id="view3"> 
+      <!-- Screen 3 of the form: Confirmation on adding beneficiary-->
+      <div id="progressbar"></div>
+      <br>
+      <br>
+      <div class="card text-center col-md-4 col-lg-12 whitebox">
+        <div class="card-body">
+          <h5 class="card-title"> Confirmation </h5>
+          <div class="col-lg-4-b col-xl-6 info-box"> Payee successfully added.<br>
+            <b>Payee activation:
+            20 minutes remaining</b> </div>
+          <br>
+          <div class="col-lg-4-b col-xl-6 info-box">
+            <label class="subheadings-confirmation">Payee Details</label>
+            <p class="text-transfer">Beneficiary Name: Kunal Gandhi </p>
+            <p class="text-transfer">Account Number: 00001234 </p>
+            <p class="text-transfer">Bank Name and Branch: HDFC Bank, Lokhandwala </p>
+            <p class="text-transfer">IFSC Code:ABC456 </p>
+          </div>
+          <!-- Click 4: 'Done' to view the next form page--> 
+          <a class="btn btn-primary btn-main usebutton3" href="#">Done</a> </div>
+        <br>
+        <br>
+      </div>
+    </div>
+    <div id="view4"> 
+      <!-- Screen 4 of the form: Choose beneficiary page-->
+      <div class="card text-center col-lg-12 white-box col-md-12">
+        <div id="progressbar"></div>
+        <br>
+        <br>
+        <div class="card-body">
+          <h5 class="card-title"> NEW TRANSFER</h5>
+          <h7>
+          Other Bank Accounts
+          </h6>
+          <div id="tabs">
+            <div class="container-fluid ">
+              <h6>Select or Add Beneficiary</h6>
+              <br>
+              <ul id="clothingnav1 " class="nav nav-fill nav-pills" role="tablist">
+                <li class="nav-item inform-tab" > <a class="nav-link active" href="#home1" id="tabs-1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><b>Select</b></a> </li>
+                <li class="nav-item inform-tab"> <a class="nav-link"  href="#paneTwo1" role="tab" id="tabs-2" data-toggle="tab" aria-controls="hats"><b>Add</b></a> </li>
+                <!-- Dropdown -->
+                
+              </ul>
+              
+              <!-- Content Panel -->
+              <div id="clothingnavcontent1" class="tab-content">
+                <div role="tabpanel" class="tab-pane fade show active active-tab" id="tabs-1" class="inform-tab" aria-labelledby="hometab1">
+                <button id="disabled4" class="anti-button">
+                <fieldset class="select-content">
+                  <!-- Click 5: Choose Kunal Gandhi option-->
+                  <h6 class="select-content col-lg-4"> Recently Added</h6>
+                  <input type="radio" name="radio-1" id="radio-1">
+                  <label for="radio-1" id="disabled4"><b>Kunal Gandhi</b><br>
+                    HDFC Bank: 00001234</label>
+                  <br>
+                  <hr>
+                  <input type="radio" name="radio-1" id="radio-2">
+                  <label for="radio-2" id="disabled4"><b>Anil Mehra</b><br>
+                    ICICI Bank: 00005678</label>
+                  <br>
+                  <input type="radio" name="radio-1" id="radio-3">
+                  <label for="radio-3" id="disabled4"><b>Manan Shah</b><br>
+                    HSBC Bank: 00008989</label>
+                  <br>
+                  <input type="radio" name="radio-1" id="radio-4">
+                  <label for="radio-3" id="disabled4"><b>Lalit Agarwal</b><br>
+                    ICICI Bank: 10102020</label>
+                </fieldset>
+                </button>
+                <br>
+                <!-- Click 6: 'Proceed' to move onto the next form page-->
+                <button id="effect4" class="btn btn-primary btn-main usebutton4 btn-form disabled" >Proceed<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="tabs-2">
+                <form class="view3">
+                <div class="form-sheet1">
+                <!-- Form details-->
+                <div class="col-lg-7 col-xl-6"> <br>
+                  <label for="exampleInputEmail1">* Beneficiary Name</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1 part1" placeholder="Enter Beneficiary Name here">
+                </div>
+                <br>
+                <div class="row-sheet1">
+                  <div class="col-lg-7 sheet-form col-xl-6">
+                    <label for="exampleInputEmail1b">* Beneficiary Account Number</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1b part2" placeholder="Enter Beneficiary Account Number here">
+                  </div>
+                </div>
+                <br>
+                <div class="row-sheet1">
+                <div class="col-lg-7 sheet-form">
+                <div class="demo dropdown show">
+                <form action="#">
+                  <fieldset class="col-xl-11">
+                    <label for="speed">* Bank Name</label>
+                    <br>
+                    <select name="speed" id="speed part3" class="btn btn-sm dropdown-toggle">
+                      <option selected="selected" class="selected">Select Bank Name</option>
+                      <option>HDFC Bank</option>
+                      <option>ICICI Bank</option>
+                      <option>HSBC bank</option>
+                      <option>Others</option>
+                    </select>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+            <br>
+            <div class="col-lg-7">
+              <div class="demo dropdown show">
+                <form action="#">
+                  <fieldset class="col-xl-11">
+                    <label for="speed">* Bank Branch</label>
+                    <br>
+                    <select name="speed" id="speed part4" class="btn btn-sm dropdown-toggle">
+                      <option selected="selected">Select Bank Branch</option>
+                      <option>Churchgate</option>
+                      <option>Lokhandwala</option>
+                      <option>Juhu</option>
+                    </select>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row-sheet1">
+            <div class="col-lg-7 col-xl-6">
+              <label for="exampleInputEmail1c">* IFSC Code</label>
+              <br>
+              <button id="disabled1" class="anti-button">
+              <input type="email" id=" disabled1 exampleInputEmail1c part5"class="form-control"  placeholder="Enter IFSC Code here">
+              </button>
+            </div>
+            <br>
+            <button id="effect" class="btn btn-primary btn-main btn-form disabled usebutton7" >Proceed<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+          </div>
+          <br>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--<div class="vertical-menu "> <a href="#"><b>Select</b> Benficiary</a><br>
+                      <a href="#" class="selected-view3 active"><b>Add</b> Benficiary </a>
+                      
+            </div>--> 
+<br>
+</div>
+</div>
+</div>
+<div id="view5"> 
+  <!-- Screen 5 of the form: Payment details-->
+  <div id="progressbar"></div>
+  <br>
+  <br>
+  <div class="card text-center col-md-4 col-lg-12 whitebox">
+    <div class="card-body">
+      <h5 class="card-title"> NEW TRANSFER </h5>
+      <h7> Other Bank Accounts </h7>
+      <div class="col-lg-11 form-sheet2">
+        <div class="row-sheet2">
+          <div class="col-lg-6 sheet2-2">
+            <form>
+              <!-- Form content--><br>
+              <label class="labels"><b>Payment Details</b></label>
+              <br>
+            </form>
+          </div>
+          <form class="col-lg-7 sheet2-2">
+          <div class="demo dropdown show">
+          <form action="#">
+            <fieldset>
+              <label for="speed">* Transfer from</label>
+              <br>
+              <!-- Select menu to choose the account name-->
+              <select name="speed" id="speed" class="btn btn-sm dropdown-toggle">
+                <option selected="selected" class="selected">Select Account</option>
+                <option>Savings Account: ABC</option>
+                <option>Savings Account: XYZ</option>
+                <option>Current Account: ABC</option>
+                <option>Current Account: XYZ</option>
+              </select>
+              <p class="info">Available Balance= Rs. -----</p>
+            </fieldset>
+          </form>
+        </div>
+        <!-- Selection option using radio buttons within the dropdown-->
+        
+        </form>
+        <div class="col-lg-7 sheet2-2">
+          <form action="#">
+            <fieldset >
+              <label for="exampleInputEmail1">* Payment Type</label>
+              <br>
+              <label for="radio-1">
+                <input type="radio" name="radio-1" id="radio-1a">
+                Repitive </label>
+              <br>
+              <label for="radio-2">
+                <input type="radio" name="radio-1" id="radio-2a">
+                One Time</label>
+            </fieldset>
+          </form>
+        </div>
+        
+        <!-- Selection option using radio buttons-->
+        <div class="col-lg-7 sheet2-2">
+          <form action="#">
+            <fieldset >
+              <label for="exampleInputEmail1">* Payment Mode</label>
+              <br>
+              <label for="radio-1">
+                <input type="radio" name="radio-1" id="radio-1b">
+                NEFT</label>
+              <br>
+              <label for="radio-2">
+                <input type="radio" name="radio-1" id="radio-2b">
+                RTGS</label>
+              <br>
+              <label for="radio-3">
+                <input type="radio" name="radio-1" id="radio-3b">
+                IMPS</label>
+              <br>
+              <label for="radio-4">
+                <input type="radio" name="radio-1" id="radio-4b">
+                Instant Fund Transfer</label>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-7 sheet2-2">
+        <label>* Date</label>
+        <input type="email" class="form-control" id="exampleInputEmail1b part2" placeholder="21-11-2019">
+      </div>
+      <div class="col-lg-7 sheet2-2">
+        <label for="exampleInputEmail1b" id="disabled2">* Amount</label>
+        <input type="email" class="form-control" id="exampleInputEmail1x" placeholder="Enter here">
+      </div>
+      <div class="col-lg-7 sheet2-2">
+        <label for="exampleInputEmail1"> Amount Description</label>
+        <input type="email" class="form-control" id="exampleInputEmail1y" placeholder="Enter here">
+      </div>
+      <br>
+      <!-- Click ^: 'Proceed' for the new page of the form-->
+      <button id="effect2" class="btn btn-primary btn-main usebutton5 disabled">Proceed<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+      <br>
+      <br>
+    </div>
+  </div>
+  <br>
+  <br>
+</div>
+</div>
+<div id="view6"> 
+  <!-- Screen 6 of the form: Confirmation-->
+  <div id="progressbar"></div>
+  <br>
+  <br>
+  <div class="card text-center col-md-4 col-lg-12 whitebox">
+    <div class="card-body">
+      <h5 class="card-title"> Confirmation </h5>
+      <div class="col-lg-4-b col-xl-6 info-box">
+        <label class="subheadings-confirmation">Payee Details</label>
+        <p class="text-transfer">Beneficiary Name: Kunal Gandhi </p>
+        <p class="text-transfer">Account Number: 00001234 </p>
+        <p class="text-transfer">Bank Name and Branch: HDFC Bank, Lokhandwala </p>
+        <p class="text-transfer">IFSC Code:ABC456 </p>
+      </div>
+      <div class="col-lg-4-b col-xl-6 info-box">
+        <label class="subheadings-confirmation">Payment Details</label>
+        <p class="text-transfer">Transfer from: Savings Account XYZ </p>
+        <p class="text-transfer">Amount: Rs. 1234567 </p>
+        <p class="text-transfer">Payment Type: NEFT </p>
+        <p class="text-transfer">Date: 22/08/2019 </p>
+        <!-- Click 7: Click 'Confirm' to view next form page--> 
+        <a class="btn btn-primary btn-main usebutton6" href="#">Confirm</a> <a class="btn btn-primary btn-second usebutton6" href="#">Cancel</a></div>
+    </div>
+  </div>
+  <br>
+  <br>
+</div>
+<div id="view7"> 
+  <!-- Screen 7 of the form: Net Secure Code -->
+  <div id="progressbar"></div>
+  <br>
+  <br>
+  <div class="card text-center col-md-4 col-lg-12 whitebox">
+    <div class="card-body">
+      <h5 class="card-title"> NEW TRANSFER </h5>
+      <h7> Other Bank Accounts </h7>
+      <div class="col-lg-11 form-sheet2">
+        <div class="row-sheet2">
+          <div class="col-lg-6 sheet2-2">
+            <form>
+              <!-- Form content-->
+              <label class="labels"><b>Net Secure Code</b></label>
+              <br>
+            </form>
+          </div>
+          <form class="col-lg-7 sheet2-2">
+          <div class="demo dropdown show">
+          <form class="col-lg-12">
+            <label>Get OTP Via</label>
+            <br>
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-secondary btn-otp">SMS</button>
+              <button type="button" class="btn btn-secondary btn-otp">Call</button>
+            </div>
+            <br>
+            <label class="sheet4-heading">Enter One Time Password</label>
+            <br>
+            <input type="text" class="otp-box-single" id="disabled3">
+            <input type="text" class="otp-box-single" id="disabled3">
+            <input type="text" class="otp-box-single" id="disabled3">
+            <input type="text" class="otp-box-single" id="disabled3">
+            <input type="text" class="otp-box-single" id="disabled3">
+            <input type="text" class="otp-box-single" id="disabled3">
+            <br>
+            <br>
+          </form>
+          <!-- Click 8: 'Proceed' to view form page-->
+          <button id="effect3" class="btn btn-primary btn-main usebutton7 disabled">Proceed<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+        <!-- Selection option using radio buttons within the dropdown-->
+        
+        </form>
+      </div>
+      <br>
+    </div>
+  </div>
+  <br>
+  <br>
+</div>
+</div>
+<div id="view8"> 
+  <!-- Screen 8 of the form: Final confirmation-->
+  <div id="progressbar"></div>
+  <br>
+  <br>
+  <div class="card text-center col-md-4 col-lg-12 whitebox">
+    <div class="card-body">
+      <h5 class="card-title"> Confirmation </h5>
+      <div class="col-lg-4-b col-xl-6">
+        <p class="text-transfer">Payment Status: <b> SUCCESSFUL</b></p>
+        <p class="text-transfer">Transaction Reference Number: ABCDE12345 </p>
+      </div>
+      <div class="col-lg-4-b col-xl-6">
+        <label class="subheadings-confirmation">Payee Details</label>
+        <p class="text-transfer">Beneficiary Name: Kunal Gandhi </p>
+        <p class="text-transfer">Account Number: 00001234 </p>
+        <p class="text-transfer">Bank Name and Branch: HDFC Bank, Lokhandwala </p>
+        <p class="text-transfer">IFSC Code:ABC456 </p>
+      </div>
+      <div class="col-lg-4-b col-xl-6">
+        <label class="subheadings-confirmation">Payment Details</label>
+        <p class="text-transfer">Transfer from: Savings Account XYZ </p>
+        <p class="text-transfer">Amount: Rs. 1234567 </p>
+        <p class="text-transfer">Payment Type: NEFT </p>
+        <p class="text-transfer">Date: 22/08/2019 </p>
+        <!-- Click 9: 'Proceed' to go back to the main page --> 
+        <a class="btn btn-primary btn-main usebutton8" href="#">Proceed<i class="fa fa-chevron-right" aria-hidden="true"></i></a> </div>
+    </div>
+    <br>
+    <br>
+  </div>
+</div>
+</div>
+<div id="view9">
+  <div class="grey-box">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 white-box col-lg-6">
+          <div class="card-header"><b>RECENT TRANSFERS </b> </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">No Recent Transactions found</li>
+          </ul>
+        </div>
+        <div class="col-md-4 white-box col-lg-6">
+          <div class="card-header"><b>NEW TRANSFERS</b> </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">My Accounts</li>
+            <li class="list-group-item">Axis Bank Accounts</li>
+            <li class="list-group-item"><a href="#" class="usebutton1">Other Bank Accounts</a></li>
+            <li class="list-group-item">Visa Credit Cards</li>
+            <li class="list-group-item">Instant Money Transfer</li>
+            <br>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div id="pane-B" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-B">
+  <div class="card-header" role="tab" id="heading-B">
+    <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-B" aria-expanded="false" aria-controls="collapse-B" class="title-hover"> BILL PAYMENTS <i class="fa fa-angle-down one" aria-hidden="true"></i> </a> </h5>
+  </div>
+  <div id="collapse-B" class="collapse" data-parent="#content" role="tabpanel" aria-labelledby="heading-B">
+    <div class="card-body"> [Tab content B] </div>
+  </div>
+</div>
+<div id="pane-C" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-C">
+  <div class="card-header" role="tab" id="heading-C">
+    <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-C" aria-expanded="false" aria-controls="collapse-C" class="title-hover"> TRANSACTION STATUS ENQUIRY <i class="fa fa-angle-down two" aria-hidden="true"></i> </a> </h5>
+  </div>
+  <div id="collapse-C" class="collapse" role="tabpanel" data-parent="#content" aria-labelledby="heading-C">
+    <div class="card-body"> [Tab content C] </div>
+  </div>
+</div>
+<div id="pane-D" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-C">
+  <div class="card-header" role="tab" id="heading-D">
+    <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-C" aria-expanded="false" aria-controls="collapse-D" class="title-hover"> RECHARGES <i class="fa fa-angle-down three" aria-hidden="true"></i></a> </h5>
+  </div>
+  <div id="collapse-D" class="collapse" role="tabpanel" data-parent="#content" aria-labelledby="heading-D">
+    <div class="card-body"> [Tab content D] </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<!-- Click 10: 'Log out' on the top right of the page to open the log out pop up.-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+  <!-- Log  out pop up-->
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">LOG OUT</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body"> You have successfully been logged out. </div>
+      <!-- Click 'Continue' to be redirected to the Internet Banking Page-->
+      <div class="modal-footer"> <a class="btn btn-secondary btn-continue" href="Index.html" data-dismiss="modal">Continue</a> 
+        <!--        <button type="button" class="btn btn-secondary btn-continue" data-dismiss="modal">Continue</button>--> 
+        <!--        <button type="button" class="btn btn-primary">Save changes</button>--> 
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+  <div class="container text-center"> <b>About Us</b><br>
+    <b>Contact Us</b><br>
+    Call: 1800-419-5959<br>
+    Find your nearest Branch<br>
+    Complaints Redressal<br>
+    <b>Site Map</b><br>
+    <small>Copyright Axis Bank. All rights reserved.</small> </div>
+</footer>
+<!-- /#wrapper --> 
+
+<!-- Bootstrap core JavaScript --> 
+
+<!-- Menu Toggle Script --> 
+<script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+	
+  </script>
+
+<script src="JQuery/JSCode1.js"></script> 
+<script src="JQuery/JSCode3.js"></script> 
+<script src="JQuery/JSCode4.js"></script> 
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

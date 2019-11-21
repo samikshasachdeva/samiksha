@@ -1,0 +1,1264 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    color: #646464;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    height: 20%;
+}
+h4 {
+    margin-top: 1em;
+}
+footer {
+    margin-top: 5em;
+    height: 10%;
+}
+ol {
+    width: 30%;
+}
+form {
+    margin-top: 1em;
+}
+hr {
+    width: 95%;
+    height: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 2px;
+    border-color: #DFDCDC;
+}
+.navbar {
+    color: #707070;
+    text-align: left;
+}
+.nav-tabs {
+    color: #707070;
+}
+.nav-color {
+    color: #000000;
+}
+.navbar-nav {
+    text-align: left;
+	    width: 100%;
+    color: #4B4B4B;
+}
+.navbar-nav .ml-auto {
+    color: #4B4B4B;
+    text-align: left;
+    align-content: left;
+}
+.navbar-expand-lg {
+    text-align: left;
+    color: #646464;
+    background: black;
+}
+.nav-tabs {
+    text-align: center;
+}
+.nav-item .nav-link:hover {
+    color: #AE275F;
+}
+.nav-link .active .nav-login {
+    color: #AE275F;
+    font-weight: bold;
+    width: 50%;
+}
+.nav-link {
+    color: dimgrey;
+	
+}
+.nav-item {
+    color: dimgrey;
+	
+}
+.nav-item {
+    color: black;
+}
+.nav-color-active {
+    color: #AE275F;
+}
+.breadcrumb {
+    margin-top: 1em;
+    background: white;
+    width: 30%;
+}
+.active .breadcrumb-item {
+    color: #AE275F;
+}
+.breadcrumb-item {
+    color: #646464;
+    text-decoration: none;
+}
+.jumbotron {
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    background: white;
+}
+.container {
+    width: 100%;
+}
+.box {
+    width: 1000px;
+    height: 400px;
+    background: #E9E9E9;
+}
+.rowtop {
+    font-size: 0.7em;
+    width: 1500px;
+    background: white;
+    color: black;
+}
+.rowtop-color {
+    background: #E6E6E6;
+}
+.col-lg-12 {
+    width: 100%;
+    color: black;
+}
+.box-2 {
+    text-align: left;
+    margin-left: 1em;
+    color: #707070;
+}
+.base-text {
+    text-align: left;
+    margin-left: 2em;
+}
+.base-button {
+    text-align: left;
+}
+.btn-primary {
+    background: #AE275F;
+    margin-top: 0.7em;
+    border: none;
+}
+.btn-primary:hover {
+    background: #AE275F;
+    border: none;
+    font-weight: 450;
+}
+.sr-only {
+    color: #AE275F;
+}
+.btn-lg {
+    border: none;
+}
+.active .nav-item {
+    color: #AE275F;
+}
+.nav-item:hover {
+    color: #AE275F;
+}
+.head-color {
+    background: #E6E6E6;
+    color: #646464;
+}
+.container .box {
+    background: #F8F8F8;
+}
+.bg-light {
+    background: black;
+}
+.card {
+    margin-top: 1em;
+    background: #FCFCFC;
+    border: none;
+}
+.card-footer {
+    background: none;
+    text-align: left;
+}
+.card-footer {
+    border: none;
+    background: none;
+}
+.left-btn {
+    background: none;
+    color: #AE275F;
+}
+.right-btn {
+    background: none;
+    color: #707070;
+}
+.btn-main:hover {
+    font-weight: bold;
+}
+.btn-card-left:hover {
+    font-weight: bold;
+    background: none;
+    color: #AE275F;
+}
+.btn-card-right {
+    background: none;
+    color: #707070;
+}
+.btn-card-right:hover {
+    font-weight: bold;
+    background: none;
+    color: #707070;
+}
+.icon-color {
+    color: #646464;
+}
+.fa-bell:hover {
+    color: #AE275F;
+}
+.fa-search:hover {
+    color: #AE275F;
+}
+#clothingv1 {
+    width: 100%;
+}
+#viewnext {
+    background: none;
+}
+.h-100 {
+    height: 20px;
+}
+.col-lg-6 {
+    height: 180px;
+}
+#clothingnav1 {
+    width: 100%;
+}
+#home1 {
+    color: black;
+}
+.collapse {
+    color: black;
+}
+.btn-first:hover {
+    background: #AE275F;
+    font-weight: 450;
+}
+.btn-second {
+    background: #E2E2E2;
+    color: #AE275F;
+}
+.btn-second:hover {
+    background: #E2E2E2;
+    color: #AE275F;
+    font-weight: 450;
+}
+.btn {
+    margin-top: 0.5em;
+}
+.nav-item:hover {
+    color: #AE275F;
+}
+.card-title {
+    color: #4B4B4B;
+}
+.section1 {
+    background: #FBFBFB;
+}
+#section2 {
+    background: #FBFBFB;
+}
+.login-info .col-form-label {
+    font-size: 0.9em;
+    color: #AE275F;
+    text-align: center;
+}
+.modal-header {
+    background: #AE275F;
+    color: white;
+    text-align: center;
+}
+.close {
+    color: white;
+}
+#section1 {
+    background: #F6F6F6;
+}
+.navbar-toggler {
+    color: #646464;
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive {
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive:hover {
+    color: #AE275F;
+}
+.dropdown-menu {
+    color: #646464;
+	text-align: left;
+	
+}
+.search {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+}
+.nav-login {
+    background: white;
+}
+.top {
+    text-align: left;
+}
+.collapse .navbar-collapse .nav {
+    text-align: left;
+}
+.h-100 {
+    height: 20px;
+}
+.col-lg-6 {
+    height: 180px;
+}
+#clothingnav1 {
+    width: 100%;
+}
+#home1 {
+    color: black;
+}
+.collapse {
+    color: black;
+}
+.btn-first:hover {
+    background: #AE275F;
+    font-weight: 450;
+}
+.btn-second {
+    background: #E2E2E2;
+    color: #AE275F;
+}
+.btn-second:hover {
+    background: #E2E2E2;
+    color: #AE275F;
+    font-weight: 450;
+}
+.btn {
+    margin-top: 0.5em;
+}
+.nav-item:hover {
+    color: #AE275F;
+	
+}
+.card-title {
+    color: #4B4B4B;
+}
+.section1 {
+    background: #FBFBFB;
+}
+#section2 {
+    background: #FBFBFB;
+}
+.login-info {
+    font-size: 0.9em;
+    color: #AE275F;
+}
+.modal-header {
+    background: #AE275F;
+    color: white;
+    text-align: center;
+}
+.close {
+    color: white;
+}
+.navbar-toggler {
+    color: #646464;
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive {
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive:hover {
+    color: #AE275F;
+}
+.dropdown-menu {
+    color: #646464;
+}
+.search {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+}
+.nav-login {
+    background: white;
+}
+.top {
+    text-align: left;
+}
+.collapse .navbar-collapse .nav {
+    text-align: left;
+}
+.h-100 {
+    height: 20px;
+}
+.col-lg-6 {
+    height: 180px;
+}
+#clothingnav1 {
+    width: 100%;
+}
+#home1 {
+    color: black;
+}
+.collapse {
+    color: black;
+}
+.btn-first:hover {
+    background: #AE275F;
+    font-weight: 450;
+}
+.btn-second {
+    background: #E2E2E2;
+    color: #AE275F;
+}
+.btn-second:hover {
+    background: #E2E2E2;
+    color: #AE275F;
+    font-weight: 450;
+}
+.btn {
+    margin-top: 0.5em;
+}
+.nav-item:hover {
+    color: #AE275F;
+}
+.card-title {
+    color: #4B4B4B;
+}
+.section1 {
+    background: #FBFBFB;
+}
+#section2 {
+    background: #FBFBFB;
+}
+.login-info {
+    font-size: 0.9em;
+    color: #AE275F;
+}
+.modal-header {
+    background: #AE275F;
+    color: white;
+    text-align: center;
+}
+.close {
+    color: white;
+}
+#section1 {
+    background: #F6F6F6;
+}
+.navbar-toggler {
+    color: #646464;
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive {
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive:hover {
+    color: #AE275F;
+}
+.dropdown-menu {
+    color: #646464;
+}
+.search {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+}
+.nav-login {
+    background: white;
+}
+.top {
+    text-align: left;
+}
+.collapse .navbar-collapse .nav {
+    text-align: left;
+}
+.h-100 {
+    height: 20px;
+}
+.col-lg-6 {
+    height: 180px;
+}
+#clothingnav1 {
+    width: 100%;
+}
+#home1 {
+    color: black;
+}
+.collapse {
+    color: black;
+}
+.btn-first:hover {
+    background: #AE275F;
+    font-weight: 450;
+}
+.btn-second {
+    background: #E2E2E2;
+    color: #AE275F;
+}
+.btn-second:hover {
+    background: #E2E2E2;
+    color: #AE275F;
+    font-weight: 450;
+}
+.btn {
+    margin-top: 0.5em;
+}
+.nav-item:hover {
+    color: #AE275F;
+}
+.card-title {
+    color: #4B4B4B;
+}
+.section1 {
+    background: #FBFBFB;
+}
+#section2 {
+    background: #FBFBFB;
+}
+.login-info {
+    font-size: 0.9em;
+    color: #AE275F;
+}
+.modal-header {
+    background: #AE275F;
+    color: white;
+    text-align: center;
+}
+.close {
+    color: white;
+}
+#section1 {
+    background: #F6F6F6;
+}
+.navbar-toggler {
+    color: #646464;
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive {
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive:hover {
+    color: #AE275F;
+}
+.dropdown-menu {
+    color: #646464;
+	
+}
+.search {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+}
+.nav-login {
+    background: white;
+}
+.top {
+    text-align: left;
+}
+.collapse .navbar-collapse .nav {
+    text-align: left;
+}
+.h-100 {
+    height: 20px;
+}
+.col-lg-6 {
+    height: 180px;
+}
+#clothingnav1 {
+    width: 100%;
+}
+#home1 {
+    color: black;
+}
+.collapse {
+    color: black;
+}
+.btn-first:hover {
+    background: #AE275F;
+    font-weight: 450;
+}
+.btn-second {
+    background: #E2E2E2;
+    color: #AE275F;
+}
+.btn-second:hover {
+    background: #E2E2E2;
+    color: #AE275F;
+    font-weight: 450;
+}
+.btn {
+    margin-top: 0.5em;
+}
+.nav-item:hover {
+    color: #AE275F;
+}
+.card-title {
+    color: #4B4B4B;
+}
+.section1 {
+    background: #FBFBFB;
+}
+#section2 {
+    background: #FBFBFB;
+}
+.login-info {
+    font-size: 0.9em;
+    color: #AE275F;
+}
+.modal-header {
+    background: #AE275F;
+    color: white;
+    text-align: center;
+}
+.close {
+    color: white;
+}
+#section1 {
+    background: #F6F6F6;
+}
+.navbar-toggler {
+    color: #646464;
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive {
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive:hover {
+    color: #AE275F;
+}
+.dropdown-menu {
+    color: #646464;
+}
+.search {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+}
+.nav-login {
+    background: white;
+}
+.top {
+    text-align: left;
+}
+.collapse .navbar-collapse .nav {
+    text-align: left;
+}
+.h-100 {
+    height: 18px;
+    text-align: center;
+    background: #F6F6F6;
+}
+.col-lg-6 {
+    height: 180px;
+}
+#clothingnav1 {
+    width: 100%;
+}
+#home1 {
+    color: black;
+}
+.collapse {
+    color: #707070;
+	text-align: left;
+	}
+.collapse .navbar-collapse .nav{
+	text-align: left;
+	}
+.collapsed {
+    color: #707070;
+}
+.collapsed:hover {
+    text-decoration: none;
+    color: #AE275F;
+}
+.btn-first:hover {
+    background: #AE275F;
+    font-weight: 450;
+}
+.btn-second {
+    background: #E2E2E2;
+    color: #AE275F;
+}
+.btn-second:hover {
+    background: #E2E2E2;
+    color: #AE275F;
+    font-weight: 450;
+}
+.btn {
+    margin-top: 0.5em;
+}
+.nav-item:hover {
+    color: #AE275F;
+}
+.card-title {
+    color: #4B4B4B;
+    text-align: center;
+}
+.section1 {
+    background: #FBFBFB;
+}
+#section2 {
+    background: #FBFBFB;
+}
+.login-info {
+    font-size: 0.9em;
+    color: #AE275F;
+}
+.modal-header {
+    background: #AE275F;
+    color: white;
+    text-align: center;
+}
+.close {
+    color: white;
+}
+#section1 {
+    background: #F6F6F6;
+}
+.navbar-toggler {
+    color: #646464;
+    text-align: left;
+}
+#navbarResponsive {
+    text-align: left;
+		
+}
+.nav {
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive:hover {
+    color: #AE275F;
+}
+.dropdown-menu {
+    color: #646464;
+}
+.search {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+}
+.nav-login {
+    background: white;
+}
+.top {
+    text-align: left;
+}
+.h-100 {
+    height: 20px;
+}
+.col-lg-6 {
+    height: 180px;
+}
+#clothingnav1 {
+    width: 100%;
+}
+#home1 {
+    color: black;
+}
+.collapse {
+    color: black;
+}
+.btn-first:hover {
+    background: #AE275F;
+    font-weight: 450;
+}
+.btn-second {
+    background: #E2E2E2;
+    color: #AE275F;
+}
+.btn-second:hover {
+    background: #E2E2E2;
+    color: #AE275F;
+    font-weight: 450;
+}
+.btn {
+    margin-top: 0.5em;
+}
+.nav-item:hover {
+    color: #AE275F;
+}
+.card-title {
+    color: #4B4B4B;
+}
+.section1 {
+    background: #FBFBFB;
+}
+#section2 {
+    background: #FBFBFB;
+}
+.login-info {
+    font-size: 0.9em;
+    color: #AE275F;
+}
+.modal-header {
+    background: #AE275F;
+    color: white;
+    text-align: center;
+}
+.close {
+    color: white;
+}
+#section1 {
+    background: #F6F6F6;
+}
+.navbar-toggler {
+    color: #646464;
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive {
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive:hover {
+    color: #AE275F;
+}
+.dropdown-menu {
+    color: #646464;
+}
+.search {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+}
+.nav-login {
+    background: white;
+}
+.top {
+    text-align: left;
+}
+.collapse .navbar-collapse .nav {
+    text-align: left;
+}
+.h-100 {
+    height: 20px;
+}
+.col-lg-6 {
+    height: 180px;
+}
+#clothingnav1 {
+    width: 100%;
+}
+#home1 {
+    color: black;
+}
+.collapse {
+    color: black;
+}
+.btn-first:hover {
+    background: #AE275F;
+    font-weight: 450;
+}
+.btn-second {
+    background: #E2E2E2;
+    color: #AE275F;
+}
+.btn-second:hover {
+    background: #E2E2E2;
+    color: #AE275F;
+    font-weight: 450;
+}
+.btn {
+    margin-top: 0.5em;
+}
+.nav-item:hover {
+    color: #AE275F;
+}
+.card-title {
+    color: #4B4B4B;
+}
+.section1 {
+    background: #FBFBFB;
+}
+#section2 {
+    background: #FBFBFB;
+}
+.login-info {
+    font-size: 0.9em;
+    color: #AE275F;
+}
+.modal-header {
+    background: #AE275F;
+    color: white;
+    text-align: center;
+}
+.close {
+    color: white;
+}
+#section1 {
+    background: #F6F6F6;
+}
+.navbar-toggler {
+    color: #646464;
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive {
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive:hover {
+    color: #AE275F;
+}
+.dropdown-menu {
+    color: #646464;
+}
+.search {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+}
+.nav-login {
+    background: white;
+}
+.top {
+    text-align: left;
+}
+.collapse .navbar-collapse .nav {
+    text-align: left;
+}
+.h-100 {
+    height: 20px;
+}
+.col-lg-6 {
+    height: 180px;
+}
+#clothingnav1 {
+    width: 100%;
+}
+#home1 {
+    color: black;
+}
+.collapse {
+    color: black;
+}
+.btn-first:hover {
+    background: #AE275F;
+    font-weight: 450;
+}
+.btn-second {
+    background: #E2E2E2;
+    color: #AE275F;
+}
+.btn-second:hover {
+    background: #E2E2E2;
+    color: #AE275F;
+    font-weight: 450;
+}
+.btn {
+    margin-top: 0.5em;
+}
+.nav-item:hover {
+    color: #AE275F;
+}
+.card-title {
+    color: #4B4B4B;
+}
+.section1 {
+    background: #FBFBFB;
+}
+#section2 {
+    background: #FBFBFB;
+}
+.login-info {
+    font-size: 0.9em;
+    color: #AE275F;
+}
+.modal-header {
+    background: #AE275F;
+    color: white;
+    text-align: center;
+}
+.close {
+    color: white;
+}
+#section1 {
+    background: #F6F6F6;
+}
+.navbar-toggler {
+    color: #646464;
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive {
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive:hover {
+    color: #AE275F;
+}
+.dropdown-menu {
+    color: #646464;
+}
+.search {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+}
+.nav-login {
+    background: white;
+}
+.top {
+    text-align: left;
+}
+.collapse .navbar-collapse .nav {
+    text-align: left;
+}
+.h-100 {
+    height: 20px;
+}
+.col-lg-6 {
+    height: 180px;
+}
+#clothingnav1 {
+    width: 100%;
+}
+#home1 {
+    color: black;
+}
+.collapse {
+    color: black;
+}
+.btn-first:hover {
+    background: #AE275F;
+    font-weight: 450;
+}
+.btn-second {
+    background: #E2E2E2;
+    color: #AE275F;
+}
+.btn-second:hover {
+    background: #E2E2E2;
+    color: #AE275F;
+    font-weight: 450;
+}
+.btn {
+    margin-top: 0.5em;
+}
+.nav-item:hover {
+    color: #AE275F;
+}
+.card-title {
+    color: #4B4B4B;
+}
+.section1 {
+    background: #FBFBFB;
+}
+#section2 {
+    background: #FBFBFB;
+}
+.login-info {
+    font-size: 0.9em;
+    color: #AE275F;
+}
+.modal-header {
+    background: #AE275F;
+    color: white;
+    text-align: center;
+}
+.close {
+    color: white;
+}
+#section1 {
+    background: #F6F6F6;
+}
+.navbar-toggler {
+    color: #646464;
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive {
+    text-align: left;
+}
+.navbar-collapse .collapse #navbarResponsive:hover {
+    color: #AE275F;
+}
+.dropdown-menu {
+    color: #646464;
+	text-align: left;
+}
+.search {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+}
+.nav-login {
+    background: white;
+}
+.top {
+    text-align: left;
+}
+.collapse .navbar-collapse .nav {
+    text-align: left;
+}
+.login-nav {
+    width: 50%;
+}
+.second {
+    margin-top: 5em;
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width: 768px) {
+nav.second {
+    display: none;
+}
+}
+.main-nav {
+    display: none;
+}
+
+@media(min-width:768px) {
+.nav-tabs {
+    display: flex;
+}
+.card {
+    border: none;
+}
+.card .card-header {
+    display: none;
+    color: #707070;
+}
+.card .collapse {
+    display: block;
+}
+}
+
+@media(max-width:767px) {
+/*
+     * Changed selector to `.tab-content > .tab-pane` to override `.fade:not(.show)`
+     * In BS4 Beta `.tab-pane`s were rendered hidden by just `.fade`
+     */
+.tab-content > .tab-pane {
+{
+ display: block;
+ opacity: 1;
+}
+}
+.display-3 {
+    font-size: 2.3em;
+    font-weight: 350;
+}
+.lead {
+    font-size: 1.2em;
+}
+.box-2 {
+    font-size: 1.3em;
+}
+}
+.active {
+    color: #AE275F;
+    background: white;
+}
+.mb-0 {
+    text-align: center;
+    background: none;
+    color: #707070;
+}
+.mb-0:hover {
+    text-decoration: none;
+}
+#heading-A {
+    color: #707070;
+}
+.card-body {
+    text-align: center;
+}
+#collapse-A {
+    background: #F6F6F6;
+}
+.white-card {
+    background: white;
+}
+.left-align-btn {
+    text-align: left;
+}
+.grey-text {
+    color: #707070;
+}
+.modal-content {
+    color: #707070;
+}
+.form-group {
+    color: #707070;
+    text-align: center;
+    margin-left: 1.5em;
+    width: 90%;
+}
+.col-form-label {
+    text-align: center;
+}
+#send {
+    text-align: center;
+}
+.btn-login-form .btn .btn-primary {
+    text-align: center;
+}
+.login-info-dark .col-form-label {
+    color: 707070;
+}
+.navbar-toggler-icon {
+    color: #AE275F;
+    border: #AE275F;
+}
+.icon-color-top {
+    color: #AE275F;
+}
+.fa-bars {
+    font-size: 1.2em;
+    color: #AE275F;
+}
+.one {
+    margin-right: -3em;
+    margin-left: 2em;
+}
+.two {
+    margin-left: 1em;
+    margin-right: -1em;
+}
+.three {
+    margin-left: 4em;
+    margin-right: -4em;
+}
+.zero {
+    margin-right: -2.5em;
+    margin-left: 2em;
+}
+.anti-button {
+    border: none;
+    background: none;
+    width: 100%;
+}
+.inactive {
+    background: #AE275F;
+    color: white;
+}
+.container-fluid {
+    margin-top: -1.6em;
+    margin-left: -1em;
+    width: 106%;
+}
+.dropdown {
+    background: #F8F9FA;
+	
+}
+
+
+.navbar-collapse {
+	text-align: left;
+}
+#exampleInputEmail1 {
+	margin-left: 1em;
+	width:70%;
+}
+
+
+
+.top-nav {
+	text-align: left;
+	margin-left: 1em;
+	
+}
+
+.header-nav {
+	font-size:0.7em;
+	width:20%;
+	text-align: left;
+	
+	
+}
+
+.btn-login {
+	font-size:0.8em;
+;
+
+
+
+.text-center {
+	font-size:0.8em;
+}

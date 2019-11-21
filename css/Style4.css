@@ -1,0 +1,357 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.navbar-dark {
+    color: black;
+    background: white;
+}
+.navbar-nav {
+    width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+a.second {
+    display: none;
+}
+a.first {
+    font-size: 1.2em;
+}
+}
+.nav-link {
+    color: #707070;
+    background: none;
+}
+.nav-item .active {
+    color: #AE275F;
+    background: none;
+}
+.nav-link:hover {
+    color: #AE275F;
+    background: none;
+}
+.btn-main {
+    background: #AE275F;
+}
+.btn-main:hover {
+    background: #AE275F;
+    border: white;
+    font-weight: 450;
+}
+.nav-fill {
+    background: none;
+}
+.grey-box {
+    background: #FBFBFB;
+    border: none;
+}
+.white-box {
+    background: #FBFBFB;
+    margin-top: 1em;
+}
+.card-body {
+    text-align: left;
+    background: white;
+}
+#progressbar {
+    background: black;
+    color: #AE275F;
+    width: 100%;
+}
+.selected-view3 {
+    background: #E6E6E6;
+    color: #AB1B5C;
+}
+.redline {
+    width: 97%;
+    height: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    ;
+    border-width: 2px;
+    border-color: #AE275F;
+}
+#tab-B {
+    color: #707070;
+}
+#view1 {
+    background: #E6E6E6;
+}
+.row {
+    background: #FBFBFB;
+}
+.list-group-item:hover {
+    color: #AE275F;
+}
+.button-a {
+    color: black;
+}
+.button-a:hover {
+    color: #AE275F;
+    text-decoration: none;
+}
+.current-box {
+    background: #E6E6E6;
+    color: #AB1B5C;
+}
+.view3 {
+    background: #E6E6E6;
+}
+.btn-form {
+    margin: 2em;
+}
+.form-sheet2 {
+    background: #E6E6E6;
+}
+.otp-box-single {
+    width: 9%;
+    height: 200%;
+    border: none;
+}
+.btn-otp:hover {
+    color: #AE275F;
+    background: white;
+}
+.btn-otp {
+    border: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: white;
+    color: #707070;
+}
+.usebutton1 {
+    color: black;
+}
+.usebutton1:hover {
+    color: #AE275F;
+    text-decoration: none;
+}
+.fa-search {
+    margin-top: 0.8em;
+    margin-left: 1em;
+}
+.icon1 {
+    color: #707070;
+}
+.icon2 {
+    color: #707070;
+}
+.inform-tab .container-fluid {
+    background: none;
+}
+.active-tab {
+    background: #E6E6E6;
+}
+.inform-tab {
+    margin: none;
+    margin-left: -0.2em;
+    border: #E6E6E6;
+}
+.disabled {
+    background: #AE275F;
+}
+.fa-bars {
+    font-size: 1.2em;
+    color: #AE275F;
+}
+.one {
+    margin-right: -3em;
+    margin-left: 2em;
+}
+.two {
+    margin-left: 3.2em;
+    margin-right: -5em;
+}
+.three {
+    margin-left: 3.2em;
+    margin-right: -4em;
+}
+.zero {
+    margin-right: -2.5em;
+    margin-left: 2em;
+}
+.col-md-4 {
+    color: 707070;
+}
+.select-content {
+    margin-left: 3em;
+}
+#radio-1 {
+    margin-left: 2em;
+}
+#radio-2 {
+    margin-left: 2em;
+}
+#radio-3 {
+    margin-left: 2em;
+}
+#radio-4 {
+    margin-left: 2em;
+}
+.list-group-flush {
+    color: #707070;
+}
+.current {
+    background: #E6E6E6;
+}
+.nav-link .active .show {
+    background: #E6E6E6;
+}
+.nav-pills {
+    margin-left: 0.2em;
+}
+.anti-button {
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+}
+.anti-button2 {
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    margin-left: -1em;
+}
+.field-form-payment {
+    margin-left: -1em;
+}
+.title-card {
+    margin-left: 2em;
+}
+.btn-second {
+    background: #E2E2E2;
+    color: #AE275F;
+}
+.btn-second:hover {
+    background: #E2E2E2;
+    color: #AE275F;
+    font-weight: 450;
+}
+.subheadings-confirmation {
+    color: #AE275F;
+}
+.info-box {
+    margin-left: -1em;
+}
+.dropdown-header {
+    color: #707070;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.modal-title {
+    text-align: center;
+}
+.btn-continue {
+    background: #AE275F;
+    color: white;
+}
+.btn-continue:hover {
+    background: #AE275F;
+    color: white;
+    font-weight: bold;
+}
+.modal-header {
+    background: #AE275F;
+    color: white;
+}
+.close {
+    color: white;
+    opacity: 100%;
+}
+.vertical-menu a {
+    background-color: #F9F9F9;/* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    text-align: center;
+}
+.vertical-menu a:hover {
+    background-color: #E6E6E6;
+    color: #AE275F;
+}
+.vertical-menu a.active {
+    background-color: #E6E6E6; /* Add a green color to the "active/current" link */
+    color: #AE275F;
+}
+.nav-tabs {
+    display: none;
+}
+
+@media(min-width:768px) {
+.nav-tabs {
+    display: flex;
+}
+.card {
+    border: none;
+}
+.card .card-header {
+    display: none;
+    color: #646464;
+}
+.card-header {
+    text-align: center;
+}
+.card .tab-pane .fade .show .active {
+    text-align: center;
+}
+.card .collapse {
+    display: block;
+}
+}
+
+@media(max-width:767px) {
+/*
+     * Changed selector to `.tab-content > .tab-pane` to override `.fade:not(.show)`
+     * In BS4 Beta `.tab-pane`s were rendered hidden by just `.fade`
+     */
+.tab-content > .tab-pane {
+{
+ display: block;
+ opacity: 1;
+}
+}
+.nav-tabs {
+    display: flex;
+}
+.main-nav {
+    display: none;
+}
+}
+.collapsed {
+    color: #707070;
+}
+.collapsed:hover {
+    color: #AE275F;
+    text-decoration: none;
+}
+.mb-0 {
+    text-align: center;
+}
+.mb-0 .active {
+    color: #AE275F;
+}
+.mb-0:hover {
+    color: #AE275F;
+    text-decoration: none;
+}
+.title-hover:hover {
+    color: #AE275F;
+    text-decoration: none;
+}
+.title-hover {
+    color: #707070;
+}
+#menu-toggle {
+    background: #F8F9FA;
+}
+#clothingnav1 form-box {
+    width: 120%;
+}
+.nav-item {
+    margin-right: 2em;
+}

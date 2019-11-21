@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Page 1: AXIS Bank Responsive Website: Landing Page and Log In Popup</title>
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="css/heroic-features.css" rel="stylesheet">
+<link href="css/Style.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body style="padding-top: 70px">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top nav-fill top">
+  <div class="container"> 
+    <!-- Hamburger menu button for smaller screens-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars" aria-hidden="true"></i> </button>
+    <a class="navbar-brand" href="#"><img src="IMAGES/AXISBANKLOGO.png" width="150" height="45" alt=""/></a>
+    <div class="collapse navbar-collapse nav" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto" >
+        <li class="nav-item "> <a class="nav-link top-nav" href="#">Explore</a> </li>
+        <!-- Navbar item with dropdowns -->
+        <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle top-nav" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Smart Banking </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="#">Online Banking</a> <a class="dropdown-item" href="#">Mobile Banking</a> <a class="dropdown-item" href="#">Branch Banking</a> <a class="dropdown-item" href="#">Remote Banking</a> <a class="dropdown-item" href="#">Phone Banking</a> </div>
+        </li>
+        <li class="nav-item "> <a class="nav-link top-nav" href="#">Make Payments</a> </li>
+        <li class="nav-item"> <a class="nav-link top-nav" href="#">Deals</a> </li>
+        <li class="nav-item ">
+          <input type="email" class="form-control search" id="exampleInputEmail1" placeholder="Search">
+        </li>
+        <li class="nav-item"> </li>
+      </ul>
+    </div>
+    <!--Click here for log-in pop up -->
+    <button type="button" class="btn btn-primary btn-lg btn-first btn-login" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">LOG IN</button>
+  </div>
+</nav>
+<!--<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light second">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>--> 
+<!-- Page Content -->
+<div class="container"> 
+  
+  <!-- Jumbotron Header -->
+  <header class="jumbotron my-4">
+    <h1 class="display-3">INTERNET BANKING</h1>
+    <p class="lead">Bank online, securely and conveniently, from the comfort of your home or office.</p>
+    <!-- Click here for log in pop up-->
+    <button type="button" class="btn btn-primary btn-lg btn-first" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">LOG IN</button>
+    OR <a href="#" class="btn btn-lg btn-second">REGISTER</a> </header>
+  <div class="container"> 
+    <!-- Tab nav in larger screens. Accordion in smaller screens -->
+    <ul id="tabs" class="nav nav-tabs nav-fill main-nav" role="tablist">
+      <li class="nav-item"> <a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab">FUND TRANSFER</a> </li>
+      <li class="nav-item"> <a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab">BILL PAYMENTS</a> </li>
+      <li class="nav-item"> <a id="tab-C" href="#pane-C" class="nav-link" data-toggle="tab" role="tab">TRANSACTION STATUS</a> </li>
+      <li class="nav-item"> <a id="tab-D" href="#pane-D" class="nav-link" data-toggle="tab" role="tab">RECHARGE</a> </li>
+    </ul>
+    <!-- Content in tabs and accordions-->
+    <div id="content" class="tab-content" role="tablist">
+      <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
+        <div class="card-header" role="tab" id="heading-A">
+          <h5 class="mb-0 grey-text"> 
+            <!-- Active tab --> 
+            <a data-toggle="collapse" class="collapsed" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A"> FUND TRANSFER <i class="fa fa-angle-up zero" aria-hidden="true"></i> </a> </h5>
+        </div>
+        
+        <!-- Screen 1 of active tab which consists of information cards.-->
+        <div id="collapse-A" class="collapse show" data-parent="#content" role="tabpanel" aria-labelledby="heading-A">
+          <div class="card-body">
+            <div id="section1">
+              <div class="row">
+                <div class="col-md-6 mb-4 col-lg-6">
+                  <div class="card h-100">
+                    <div class="card-body white-card">
+                      <h4 class="card-title">REAL TIME GROSS SETTLEMENT</h4>
+                      <!-- Click on 'Know More' to be redirected to the next screen --> 
+                      <a class="btn btn-primary left-btn btn-card-left" href="#">PAY NOW</a><a class="usebutton btn btn-primary left-btn btn-card-right button" href="#">KNOW MORE</a>
+                      <hr>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="col-md-6 mb-4 col-lg-6">
+                  <div class="card h-100">
+                    <div class="card-body white-card">
+                      <h4 class="card-title">NATIONAL ELECTRONIC FUND TRANSFER</h4>
+                      <a class="btn btn-primary left-btn btn-card-left" href="#">PAY NOW</a><a class=" button btn btn-primary left-btn btn-card-right" href="#">KNOW MORE</a>
+                      <hr>
+                    </div>
+                  </div>
+                </div>
+                <br>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-md-6 mb-4 col-lg-6">
+                  <div class="card h-100">
+                    <div class="card-body white-card">
+                      <h4 class="card-title">INSTANT MONEY TRANSFER</h4>
+                      <a class="btn btn-primary left-btn btn-card-left" href="#">PAY NOW</a><a class="btn btn-primary left-btn btn-card-right" href="#">KNOW MORE</a>
+                      <hr>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="col-md-6 mb-4 col-lg-6">
+                  <div class="card h-100">
+                    <div class="card-body white-card">
+                      <h4 class="card-title">IMMIDIATE PAYMENT SERVICE</h4>
+                      <a class="btn btn-primary left-btn btn-card-left" href="#">PAY NOW</a><a class="btn btn-primary left-btn btn-card-right" href="#">KNOW MORE</a>
+                      <hr>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+                <br>
+              </div>
+            </div>
+            <!-- Screen 2 under the active tab which opens n clicking 'Know more' under Real Time Gross Settlement. This contains information regarding Real Time Gross Settlement and a call to action button called 'Pay Now' to proceed for payment.-->
+            <div id="section2">
+              <h4 class="box-2 button-back"><i class="fa fa-chevron-left " aria-hidden="true"></i> REAL TIME GROSS
+                SETTLEMENT </h4>
+              <hr>
+              <p class="base-text">It is a payment system in which payments are processed and settled individually and continuously.<br>
+                <br>
+                It is meant for large value transactions. The minimum amount to be remitted through RTGS is 2 lakh. <br>
+                <br>
+                There are no additional charges for RTGS. </p>
+              <div class="card-footer"> 
+                <!-- Click on the 'Pay Now' button for the log in pop up screen-->
+                <button type="button" class="btn btn-primary btn-lg btn-first left-align-btn btn-login" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">PAY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Second Tab and Accordion-->
+      <div id="pane-B" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-B">
+        <div class="card-header" role="tab" id="heading-B">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-B" aria-expanded="false" aria-controls="collapse-B"> BILL PAYMENTS </a><i class="fa fa-angle-down one" aria-hidden="true"></i> </h5>
+        </div>
+        <div id="collapse-B" class="collapse" data-parent="#content" role="tabpanel" aria-labelledby="heading-B">
+          <div class="card-body"> [Tab content B] </div>
+        </div>
+      </div>
+      <!--Third Tab and Accordion-->
+      <div id="pane-C" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-C">
+        <div class="card-header" role="tab" id="heading-C">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-C" aria-expanded="false" aria-controls="collapse-C"> TRANSACTION STATUS <i class="fa fa-angle-down two" aria-hidden="true"></i> </a> </h5>
+        </div>
+        <div id="collapse-C" class="collapse" role="tabpanel" data-parent="#content" aria-labelledby="heading-C">
+          <div class="card-body"> [Tab content C] </div>
+        </div>
+      </div>
+      <!--Fourth Tab and Accordion-->
+      <div id="pane-D" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-D">
+        <div class="card-header" role="tab" id="heading-D">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-D" aria-expanded="false" aria-controls="collapse-D"> RECHARGE <i class="fa fa-angle-down three" aria-hidden="true"></i> </a> </h5>
+        </div>
+        <div id="collapse-D" class="collapse" role="tabpanel" data-parent="#content" aria-labelledby="heading-D">
+          <div class="card-body"> [Tab content D] </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Page Features --> 
+  <!--<div class="row text-center">
+  <div class="container-fluid">
+    <div id="tabs">
+      <ul id="clothingnav1" class="nav nav-tabs nav-fill" role="tablist">
+        <li class="nav-item"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">FUND TRANSFER</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">BILL PAYMENTS</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#paneTwo2" role="tab" id="hatstab2" data-toggle="tab" aria-controls="hats">SHOP</a> </li>
+      </ul>
+  
+      <div id="clothingnavcontent1" class="tab-content">
+        <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+          <div id="section1">
+            <div class="row">
+              <div class="col-md-6 mb-4 col-lg-6">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h4 class="card-title">REAL TIME GROSS SETTLEMENT</h4>
+                    <a class="btn btn-primary left-btn btn-card-left" href="#">PAY NOW</a><a class="btn btn-primary left-btn btn-card-right button1" href="#">KNOW MORE</a>
+                    <hr>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4 col-lg-6">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h4 class="card-title">NATIONAL ELECTRONIC FUND TRANSFER</h4>
+                    <a class="btn btn-primary left-btn btn-card-left" href="#">PAY NOW</a><a class="btn btn-primary left-btn btn-card-right" href="#">KNOW MORE</a>
+                    <hr>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-4 col-lg-6">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h4 class="card-title">INSTANT MONEY TRANSFER</h4>
+                    <a class="btn btn-primary left-btn btn-card-left" href="#">PAY NOW</a><a class="btn btn-primary left-btn btn-card-right" href="#">KNOW MORE</a>
+                    <hr>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4 col-lg-6">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h4 class="card-title">IMMIDIATE PAYMENT SERVICE</h4>
+                    <a class="btn btn-primary left-btn btn-card-left" href="#">PAY NOW</a><a class="btn btn-primary left-btn btn-card-right" href="#">KNOW MORE</a>
+                    <hr>
+                  </div>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="section2">
+            <h4 class="card-title box-2"><i class="fa fa-chevron-left" aria-hidden="true"></i> REAL TIME GROSS
+              SETTLEMENT </h4>
+            <hr>
+            <p class="base-text">It is a payment system in which payments are processed and settled individually and continuously.<br>
+              <br>
+              It is meant for large value transactions. The minimum amount to be remitted through RTGS is 2 lakh. <br>
+              <br>
+              There are no additional charges for RTGS. </p>
+            <div class="card-footer"> <button type="button" class="btn btn-primary btn-lg btn-first" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">PAY NOW</button></div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+          <p>Content 2</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="paneTwo2" aria-labelledby="hatstab2">
+          <p>Content 3</p>
+        </div>
+      </div>
+    </div>
+  </div>--> 
+  <!--Log In pop up created using a Modal.-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LOG IN</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <br>
+        <!--Consists of two tabs: Personal and Corporate-->
+        <div class="container-fluid">
+          <ul id="clothingnav2" class="nav nav-tabs nav-fill" role="tablist">
+            <li class="nav-item nav-login"> <a class="nav-link active inactive" href="#home2" id="hometab2" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Personal</a> </li>
+            <li class="nav-item nav-login"> <a class="nav-link inactive" href="#paneTwo3" role="tab" id="hatstab3" data-toggle="tab" aria-controls="hats">Corporate</a> </li>
+          </ul>
+          <div id="clothingnavcontent2" class="tab-content">
+            <div role="tabpanel" class="tab-pane fade show active" id="home2" aria-labelledby="hometab2">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Customer ID</label>
+                  <input type="text" id="email" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Password</label>
+                  <input type="text" id="password" class="form-control" id="recipient-name">
+                  <label for="message-text" class="col-form-label login-info">Virtual Keyboard</label>
+                </div>
+                <!--Click on 'Log In' after filling in the necessary details in order to be redirected to the next page.-->
+                <div class="form-group"> <br>
+                  <a id="effect4" class="btn btn-primary btn-login-form"  href="Page2_Form.html">LOG IN</a> <br>
+                  <br>
+                </div>
+                <p class="col-form-label login-info-dark">Register Now<br>
+                  Forgot Password<br>
+                  Enable Customer ID</p>
+              </form>
+              </p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="paneTwo3" aria-labelledby="hatstab3">
+              <p>Content 2</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body"> </div>
+        <div class="modal-footer"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.container --> 
+
+<!-- Footer -->
+<div id="page-content">
+  <div class="container text-center">
+    <div class="row justify-content-center"> </div>
+  </div>
+</div>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+  <div class="container text-center"> <b>About Us</b><br>
+    <b>Contact Us</b><br>
+    Call: 1800-419-5959<br>
+    Find your nearest Branch<br>
+    Complaints Redressal<br>
+    <b>Site Map</b><br>
+    <small>Copyright Axis Bank. All rights reserved.</small> </div>
+</footer>
+
+<!-- Bootstrap core JavaScript --> 
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<script src="JQuery/JSCode2.js"></script> 
+<!-- JQuery File --> 
+<script src="JQuery/JSCode1.js"></script> 
+<!-- Attached fonts and icons --> 
+
+</body>
+</html>
